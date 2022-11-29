@@ -9,6 +9,7 @@ Example: git config --global user.email JIELE.21@ichat.sp.edu.sg
 git config --list 
 
 cd "D:\Local_Git_Repository" 
+cd..
 
 mkdir {name of new directory for new Git repository}
 
@@ -29,6 +30,7 @@ git merge "bug-fix1"
  
 git remote add origin https://GitHub.com/kweetecktanichat/Lab1.git
 git remote –v //check if the currently local Git repository has the remote repository server correctly configured
+git remote set-url origin {URL} //Update the remote origin to the URL of your ne Github repository
 git push --set-upstream origin master
 git push –u origin
 git tag –a v1.0 –m "Initial release v1.0" 
